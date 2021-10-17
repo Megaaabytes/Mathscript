@@ -1,0 +1,5 @@
+function(main)
+def(number,1,x)
+getCLArugmentLength(x)
+info(x)
+newline()

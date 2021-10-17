@@ -1,0 +1,8 @@
+function(main)
+	def(number#,10,x)
+	insert(x,34)
+	insert(x,69)
+	infoAt(x#1)
+	remove(x,1)
+	newline()
+	pause()

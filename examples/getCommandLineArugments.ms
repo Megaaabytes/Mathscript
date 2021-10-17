@@ -1,0 +1,5 @@
+function(main)
+def(string#,10000,x)
+getCLArugments(x)
+infoAt(x#0)
+newline()

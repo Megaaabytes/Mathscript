@@ -1,0 +1,7 @@
+function(main)
+title(this program will never quit)
+out(hello world!)
+newline()
+continue()
+continue()
+goto(0)

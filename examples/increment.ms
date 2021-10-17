@@ -1,0 +1,8 @@
+function(main)
+def(number,10,x)
+info(x)
+newline()
+increment(x)
+info(x)
+newline()
+pause()

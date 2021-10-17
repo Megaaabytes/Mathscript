@@ -1,0 +1,5 @@
+function(main)
+def(string,hello world,x)
+sleep(1000)
+enablevisualstyles()
+alert(none,${x},${x})

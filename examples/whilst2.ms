@@ -1,0 +1,8 @@
+function(main)
+	whilst(2/2=1)
+		out(2/2=1!)
+		newline()
+	endh()
+	out(Hello World!)
+	newline()
+pause()

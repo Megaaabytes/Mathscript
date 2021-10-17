@@ -1,0 +1,5 @@
+function(main)
+loop()
+out(Hello World!)
+newline()
+endl()

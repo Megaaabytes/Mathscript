@@ -1,0 +1,8 @@
+function(main)
+	if(9-9=1)
+		out(This won't ever execute since 9-9 will never equal 1)
+	else()
+		out(This executed because this was not what the original statement wanted.)
+		newline()
+	endif()
+pause()

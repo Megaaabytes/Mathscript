@@ -1,0 +1,6 @@
+function(main)
+def(boolean, true, testbool)
+info(testbool)
+blur(testbool)
+newline()
+pause()

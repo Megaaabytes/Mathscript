@@ -1,0 +1,11 @@
+function(print)
+	out(Hello World!)
+	newline()
+endf()
+
+function(main)
+	out(Hello World!)
+	newline()
+	run(print)
+	run(print)
+	pause()

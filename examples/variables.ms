@@ -1,0 +1,6 @@
+function(main)
+def(string, test, x)
+info(x)
+blur(x)
+newline()
+pause()

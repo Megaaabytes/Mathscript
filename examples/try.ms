@@ -1,0 +1,7 @@
+function(main)
+try()
+	out(hello world!)
+	blur(x)
+finish()
+newline()
+pause()

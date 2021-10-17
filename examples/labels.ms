@@ -1,0 +1,8 @@
+function(main)
+	out(preLabel)
+	newline()
+	label(printHelloWorld)
+	out(Hello World!)
+	newline()
+	toLabel(printHelloWorld)
+	stop(0)

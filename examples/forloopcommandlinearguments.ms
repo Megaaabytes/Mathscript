@@ -1,0 +1,18 @@
+function(main)
+	try()
+		def(string#,10000,x)
+		def(number,0,arraySize)
+		def(number,0,index)
+		getCLArugments(x)
+		length(x,arraySize)
+		decrement(arraySize)
+
+		loopuntil(${arraySize})
+			infoAt(x#${index})
+			newline()
+			increment(index)
+		endl()
+
+		newline()
+	finish()
+pause()

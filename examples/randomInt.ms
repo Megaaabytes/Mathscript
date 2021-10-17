@@ -1,0 +1,8 @@
+function(main)
+	def(string,null,x)
+	randomint(x,1000)
+	info(x)
+	newline()
+	pause()
+	newline()
+	goto(1)
