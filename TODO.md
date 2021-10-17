@@ -28,7 +28,7 @@
 
 [✔] Goto command
 
-[✔] While loops (in progress)
+[✔] While loops
 
 [✔] Infinite loops and break command.
 
