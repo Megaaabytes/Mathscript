@@ -103,7 +103,7 @@ Example:
   pause()
 ```  
 This infinite loop will print Hello World onto the console indefinitely. 
-** THE LOOP COMMAND DOES NOT TAKE ARGUMENTS, YOU WILL GET AN ERROR YOU TRY USING IT WITH ARGUMENTS!! **
+**THE LOOP COMMAND DOES NOT TAKE ARGUMENTS, YOU WILL GET AN ERROR YOU TRY USING IT WITH ARGUMENTS!!**
   
 # Temporary Loops
 You've seen how to do infinite loops, but sometimes you don't want a infinite loop because you want your program to only print something a certain amount of times. Well there is a command for that. Using the loopuntil(<times>) command you can make your program do something that many times.
