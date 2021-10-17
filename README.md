@@ -103,6 +103,7 @@ Example:
   pause()
 ```  
 This infinite loop will print Hello World onto the console indefinitely. 
+ 
 **THE LOOP COMMAND DOES NOT TAKE ARGUMENTS, YOU WILL GET AN ERROR YOU TRY USING IT WITH ARGUMENTS!!**
   
 # Temporary Loops
