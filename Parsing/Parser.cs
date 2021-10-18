@@ -604,7 +604,6 @@ namespace Math_Script_Runtime_Environment.Parsing
         Goto,
         Continue,
         FileExists,
-        getpermissions,
         Sleep,
         Except,
         In,
