@@ -1743,34 +1743,6 @@ namespace Math_Script_Runtime_Environment.InstructionsTools
 
                     Application.EnableVisualStyles();
                 }
-                else if (instruction.type == InstructionType.getpermissions)
-                {
-                    if (startReading == false || ifStatementReadBlockActive == true)
-                    {
-                        continue;
-                    }
-
-                    Process proc = new Process();
-                    proc.StartInfo.FileName = Assembly.GetExecutingAssembly().Location;
-                    proc.StartInfo.UseShellExecute = true;
-                    proc.StartInfo.Verb = "runas";
-                    proc.StartInfo.UseShellExecute = true;
-                    try
-                    {
-                        proc.Start();
-                    }
-                    catch
-                    {
-                        if (tryBlockActive == true)
-                        {
-                            continue;
-                        }
-                        else
-                        {
-                            throw new ScriptEngineException($"getpermissions() (EXPECTED BOOLEAN TRUE) AT {i}");
-                        }
-                    }
-                }
                 else if (instruction.type == InstructionType.FileExists)
                 {
                     if (startReading == false || ifStatementReadBlockActive == true)
