@@ -283,11 +283,6 @@ namespace Math_Script_Runtime_Environment.Parsing
                     Instructions instruct = new Instructions(InstructionType.Info, data);
                     instructions.Add(instruct);
                 }
-                else if (line.Contains("getpermissions"))
-                {
-                    Instructions instruct = new Instructions(InstructionType.getpermissions, "null");
-                    instructions.Add(instruct);
-                }
                 else if (line.Contains("sleep"))
                 {
                     string data = GetOneArgData(line);
