@@ -48,4 +48,6 @@
 
 [❌] Foreach command
 
+[❌] Operators but without equal signs
+
 [❌] Maybe external libraries?
