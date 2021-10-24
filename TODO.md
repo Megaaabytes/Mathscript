@@ -16,6 +16,8 @@
 
 [❌] Full Operator support
 
+[✔] Kinda full operator support
+
 [❌] Finish Aes Commands
 
 [❌] Add xor operator
