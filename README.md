@@ -4,7 +4,7 @@ A simple scripting language in C#. This is not a serious attempt at making a lan
 # Simple Hello World Program
 ```
  function(main)
-  out(Hello World!)
+  out("Hello World!")
   newline()
  pause()
 ```
@@ -20,7 +20,7 @@ Mathscript currently only supports void and parameterless functions.
 An example of functions:
 ```
   function(printHello)
-    out(Hello!)
+    out("Hello!")
   endf()
   
   function(main)
@@ -33,7 +33,7 @@ An example of functions:
 In Mathscript, you can make characters, booleans, numbers and strings. To make a variable, simply do:
 ```
   function(main)
-    def(string,HelloWorld,x)
+    def(string,"HelloWorld",x)
     info(x)
     newline()
   pause()
@@ -49,7 +49,7 @@ To make an array:
 ```
   function(main)
     def(string#,10,x)
-    insert(x,helloworld!)
+    insert(x,"helloworld!")
     infoAt(x#0)
     newline()
   pause()
@@ -69,7 +69,7 @@ The third way is the best way. You can declare a label. Once you declare a label
 ```  
   function(main)
      label(x)
-     out(Hello World)
+     out("Hello World!")
      toLabel(x)
      stop(0)
   pause()
@@ -83,7 +83,7 @@ Example:
 ```
   function(main)
     sleep(2000)
-    out(Hello World)
+    out("Hello World!")
     newline()
   pause()
 ```  
@@ -97,7 +97,7 @@ Example:
 ```  
   function(main)
     loop()
-      out(Hello World!)
+      out("Hello World!")
       newline()
     endl()
   pause()
@@ -113,7 +113,7 @@ Example:
 ```  
   function(main)
     loopuntil(2)
-      out(Hello World!)
+      out("Hello World!")
       newline()
     endl()
   pause()
@@ -127,7 +127,7 @@ An example:
 ```  
   function(main)
     loopuntil(2)
-      out(Hello World!)
+      out("Hello World!")
       newline()
       cease()
     endl()
@@ -139,14 +139,14 @@ Even though this loop tells the interpreter to loop 3 times. The cease command b
 In many languages a simple if statement exists simply known as switch. In Mathscript, a switch command exists with similar syntax to the one in C#. Here's how to do it.
 ```  
   function(main)
-    def(string,test,x)
+    def(string,"test",x)
     switch(x)
       case(test1)
-        out(test1)
+        out("test1")
       case(test)
-        out(test)
+        out("test")
       default()
-        out(Non of the conditions were met)
+        out("Non of the conditions were met")
     endw()
     newline()
   pause()
@@ -163,12 +163,60 @@ In Mathscript, deleting variables is easy. Simply use the blur(<name of variable
 Example:
 ```  
   function(main)
-    def(string,hello,x)
+    def(string,"hello",x)
     blur(x)
     info(x)
   pause()
 ```  
 This script will be stopped by the interpreter and raise an exception because the info() command is looking for variable "x" but it dosen't exist because it was deleted. The script will work if you remove the "info(x)" command.
   
-# A note about if, else, elseif and whilst.
-As of right now, Operators and Operations are new and have not yet fully been compliant with variables or arrays. So they won't be covered in readme. However, you can find an example of them, in the "examples" folder in this repository.
+# If, Elseif, Else
+In Mathscript, you are able to check if a given statement is true. To do this, you use an If statement.
+ 
+Example of a regular if:
+ 
+```
+ function(main)
+    def(string,"test",x)
+    if(${x}+?=test)
+        out("Hello World!")
+        newline()
+    endif()
+ pause()
+```
+ 
+Example of Elseif:
+ 
+```
+ function(main)
+    def(string,"test1",x)
+    if(${x}+?=test)
+        out("Hello World!")
+        newline()
+    elseif(${x}+?=test1)
+        out("Else if!")
+        newline()
+    endif()
+ pause()
+```
+ 
+Example of Else:
+ 
+```
+   function(main)
+    def(string,"test12",x)
+    if(${x}+?=test)
+        out("Hello World!")
+        newline()
+    elseif(${x}+?=test1)
+        out("Else if!")
+        newline()
+    else()
+        out("Else ran!")
+        newline()
+    endif()
+ pause()
+```
+ 
+# A note about whilst.
+As of right now, The whilst statement is new and has not yet fully been compliant with variables or arrays. So it won't be covered in readme. However, you can find an example of it, in the "examples" folder in this repository.
