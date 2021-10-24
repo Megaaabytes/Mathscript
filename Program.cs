@@ -22,7 +22,9 @@ namespace Math_Script_Runtime_Environment
         {
             // Thread for checking for updates. Thread was used to boost performance.
             Thread checkForUpdates = new Thread(new ThreadStart(checker));
-
+            
+            // Update checking is automatically disabled for now.
+            
             try
             {
                 if (File.Exists(args[0]) == false)
