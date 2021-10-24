@@ -50,6 +50,6 @@
 
 [❌] Operators but without equal signs
 
-[❌] Better string and character parsing. 
+[✔] Better string and character parsing. 
 
 [❌] Maybe external libraries?
