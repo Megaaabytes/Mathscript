@@ -224,7 +224,7 @@ Mathscript allows you now easily create a for loop. Heres how to do it:
 function(main)
 	 def(string#,10000,x)
 	 insert(x, "bar")
-  insert(x, "foo")
+  	 insert(x, "foo")
 	 insert(x, "test")
 
 	 for(object:index,x)
