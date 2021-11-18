@@ -217,6 +217,32 @@ Example of Else:
     endif()
  pause()
 ```
+
+# For Loops!
+Mathscript allows you now easily create a for loop. Heres how to do it:
+```
+function(main)
+	 def(string#,10000,x)
+	 insert(x, "bar")
+  insert(x, "foo")
+	 insert(x, "test")
+
+	 for(object:index,x)
+		 infoAt(x#${index}) alternatively, you could use info(object)
+		 out(":")
+		 info(index)
+		 newline()
+	 endr()
+
+	 pause()
+stop(0)
+```
+ 
+The variable "object" gets created when the for loop runs and kept once the execution finishes for if later use is needed. The object variable stores a string value of the variable in current index the for loop is on. For example, if the for loop is on index 3. The value of object will be set to the value of the third variable in the array.
+ 
+The variable index is automatically set to 0 when the loop startes and gradually increases every time the loop hits a endr or next block. The index variable is what makes the for loop function. If the index variable did not exist, then there would be no for loop. The index variable will keep increasing until the last index in the array.
+ 
+Variable x is the array which is being looped through in the for loop.
  
 # A note about whilst.
 As of right now, The whilst statement is new and has not yet fully been compliant with variables or arrays. So it won't be covered in readme. However, you can find an example of it, in the "examples" folder in this repository.
