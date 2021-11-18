@@ -50,6 +50,8 @@
 
 [❌] Foreach command
 
+[❌] Try/catch
+
 [❌] Operators but without equal signs
 
 [✔] Better string and character parsing. 
