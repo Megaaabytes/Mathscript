@@ -38,7 +38,7 @@
 
 [✔] Variable support in Finite Loops
 
-[❌] Proper for loops (literally the only way to make a for loop as of right now is using a few variables and a finite loop)
+[✔] Proper for-loops ~~(literally the only way to make a for loop as of right now is using a few variables and a finite loop)~~
 
 [✔] loop break command
 
