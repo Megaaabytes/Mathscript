@@ -1,0 +1,17 @@
+function(main)
+	def(string#,10000,x)
+	insert(x, "bar")
+	insert(x, "foo")
+	insert(x, "test")
+
+	for(object:index,x)
+		infoAt(x#${index}) alternatively, you could use info(object)
+		out(":")
+		info(index)
+		newline()
+	endr()
+
+	info(object)
+
+	pause()
+stop(0)
