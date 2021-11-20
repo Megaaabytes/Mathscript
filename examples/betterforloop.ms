@@ -10,8 +10,6 @@ function(main)
 		info(index)
 		newline()
 	endr()
-
-	info(object)
-
+	
 	pause()
 stop(0)
