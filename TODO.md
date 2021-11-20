@@ -12,6 +12,8 @@
 
 [❌] Proper support for variables in all commands.
 
+[❌] Allow loops inside of loops.
+
 [❌] Replace long with double.
 
 [✔] Parital operator support
