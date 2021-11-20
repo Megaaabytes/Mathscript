@@ -244,5 +244,48 @@ The variable index is automatically set to 0 when the loop startes and gradually
  
 Variable x is the array which is being looped through in the for loop.
  
+# Bfor loop
+Bfor is type of loop which is essentially a reverse for loop. Basically, bfor starts at the end of the array rather than the beginning and makes it's way down until its on the first item.
+	
+```
+function(main)
+	 def(string#,10000,x)
+	 insert(x, "bar")
+  	 insert(x, "foo")
+	 insert(x, "test")
+
+	 bfor(object:index,x)
+		 info(object)
+		 out(":")
+		 info(index)
+		 newline()
+	 endr()
+
+	 pause()
+stop(0)	
+```
+	
+# Checking the interpreter version
+To ensure your program will work on any device, Mathscript allows you to check the version of the interpreter your program is being ran on. If it dosen't match the expected version, your program will raise an exception.
+	
+How to check the interpreter version:
+```
+	function(main)
+		chkver(1.0.4)
+	stop(0)
+```
+	
+The code above will not raise any errors if the current version is 1.0.4
+	
+```
+	function(main)
+		chkver(1.0.2)
+	stop(0)
+```
+	
+The code above will not work on versions above 1.0.2. 
+	
+** The Chkver command was only added in version 1.0.4. It will not be recognized on versions below 1.0.4. **
+
 # A note about whilst.
 As of right now, The whilst statement is new and has not yet fully been compliant with variables or arrays. So it won't be covered in readme. However, you can find an example of it, in the "examples" folder in this repository.
