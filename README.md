@@ -270,17 +270,17 @@ To ensure your program will work on any device, Mathscript allows you to check t
 	
 How to check the interpreter version:
 ```
-	function(main)
-		chkver(1.0.4)
-	stop(0)
+function(main)
+	chkver(1.0.4)
+stop(0)
 ```
 	
 The code above will not raise any errors if the current version is 1.0.4
 	
 ```
-	function(main)
-		chkver(1.0.2)
-	stop(0)
+function(main)
+	chkver(1.0.2)
+stop(0)
 ```
 	
 The code above will not work on versions above 1.0.2. 
