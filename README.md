@@ -285,7 +285,7 @@ stop(0)
 	
 The code above will not work on versions above 1.0.2. 
 	
-** The Chkver command was only added in version 1.0.4. It will not be recognized on versions below 1.0.4. **
+**The Chkver command was only added in version 1.0.4. It will not be recognized on versions below 1.0.4.**
 
 # A note about whilst.
 As of right now, The whilst statement is new and has not yet fully been compliant with variables or arrays. So it won't be covered in readme. However, you can find an example of it, in the "examples" folder in this repository.
