@@ -1,4 +1,4 @@
-﻿# TODO:
+# TODO:
 
 [✔] If statements
 
@@ -11,6 +11,8 @@
 [✔] Array Variables
 
 [❌] Proper support for variables in all commands.
+
+[❌] Replace long with double.
 
 [✔] Parital operator support
 
