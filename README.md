@@ -286,6 +286,16 @@ stop(0)
 The code above will not work on versions above 1.0.2. 
 	
 **The Chkver command was only added in version 1.0.4. It will not be recognized on versions below 1.0.4.**
+	
+# Math!
+Inorder to do math in Mathscript, you will primarily use the following:
+	
+mul(<variable>,<veriable or digit>) This command will multiply 2 numbers together.
+add(<variable>,<veriable or digit>) This command will add 2 numbers together.
+div(<variable>,<veriable or digit>) This command will divide 2 numbers together.
+pow(<variable>,<veriable or digit>) This command will power the first number to the second the number.
+per(<variable>,<veriable or digit>) This command is an easy way of converting two numbers into a single percent.
+sub(<variable>,<veriable or digit>) This command will subtract 2 numbers together.
 
 # A note about whilst.
 As of right now, The whilst statement is new and has not yet fully been compliant with variables or arrays. So it won't be covered in readme. However, you can find an example of it, in the "examples" folder in this repository.
