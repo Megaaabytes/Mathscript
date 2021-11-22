@@ -14,6 +14,8 @@
 
 [❌] Allow loops inside of loops.
 
+[✔] Allow for calling functions within functions.
+
 [❌] Replace long with double.
 
 [✔] Parital operator support
